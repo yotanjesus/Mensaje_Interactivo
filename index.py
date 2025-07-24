@@ -8,7 +8,7 @@ pygame.mixer.init()
 
 # Música de fondo (asegúrate de que el archivo existe)
 try:
-    pygame.mixer.music.load("millonario_Amor.mp3")  # Cambia el nombre si es necesario
+    pygame.mixer.music.load("musica.mp3")  # Cambia el nombre si es necesario
     pygame.mixer.music.set_volume(0.5)
     pygame.mixer.music.play(-1)  # Repite infinitamente
 except:
